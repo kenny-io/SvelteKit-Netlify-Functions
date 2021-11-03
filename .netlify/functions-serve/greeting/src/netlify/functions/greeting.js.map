@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../Users/ekene/Desktop/demo-sveltekit/netlify/functions/greeting.cjs"],
+  "sourceRoot": "/var/folders/05/sj6h_3cx58vdj8291qls01vr0000gn/T/tmp-98895-KDnaljQA7mva",
+  "sourcesContent": ["export async function handler(event, context) {\n  return {\n    statusCode: 200,\n    body: JSON.stringify({ message: \"Hello World\" }),\n  };\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA;AAAA,uBAA8B,OAAO,SAAS;AAC5C,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU,EAAE,SAAS;AAAA;AAAA;",
+  "names": []
+}
