@@ -1,45 +1,51 @@
 <script>
-	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
+  // import Header from '$lib/header/Header.svelte';
+  import "../app.css";
 </script>
 
-<Header />
+<!-- <Header /> -->
 
 <main>
-	<slot />
+  <slot />
 </main>
 
-<footer>
+<!-- <footer>
 	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
-
+</footer> -->
 <style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
+  body {
+    font-family: "Architects Daughter", sans-serif;
+  }
+  /* main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  } */
 
-	footer a {
-		font-weight: bold;
-	}
+  /* footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
 
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	}
+  footer a {
+    font-weight: bold;
+  } */
+
+  /* @media (min-width: 480px) {
+    footer {
+      padding: 40px 0;
+    }
+  } */
 </style>

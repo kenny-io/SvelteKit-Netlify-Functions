@@ -6,7 +6,7 @@ var __export = (target, all) => {
     __defProp(target, name, { get: all[name], enumerable: true });
 };
 
-// netlify/functions/greeting.cjs
+// netlify/functions/greeting.js
 __export(exports, {
   handler: () => handler
 });
