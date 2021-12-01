@@ -4,24 +4,20 @@
 
 <script>
   import { pets } from "../stores/petstore";
+  import PetList from "../components/PetList.svelte";
   // import PetHero from "../components/PetHero.svelte";
   // import PetHero from "../../static/pet-hero.svg";
 
-  const newPet = {
-    id: Math.random(),
-    name: "Dooney",
-    slug: "learn-svelte",
-    funfact: "This is some fun fact about me",
-    image:
-      "https://th.bing.com/th/id/R.6dfb5f6ab25a678a99999f15d5616f1c?rik=7Uyobn2w%2fKmw2g&pid=ImgRaw&r=0",
-    age: "1",
-    location: "USA",
-    lookingfor: "Romance",
-  };
-
   // update the store with the new pet
-  pets.update((pets) => [...pets, newPet]);
+  // pets.update((pets) => [...pets, newPet]);
   // console.log($pets);
+  const newPet = {
+    id: "1",
+    name: "Fido",
+    type: "dog",
+    description: "A friendly dog",
+    image: "https://placekitten.com/200/300",
+  };
 </script>
 
 <svelte:head>
@@ -63,15 +59,6 @@
         src="/pet.png"
       />
     </div>
-    <!-- <div class="showcase">
-    {#each $pets as pet}
-      <div class="pet">
-        <img height="100" alt="pet" width="150" src={pet.image} />
-        <h2>{pet.name}</h2>
-        <p>{pet.funfact}</p>
-      </div>
-    {/each}
-  </div> -->
     <div>
       <!-- create a circle to appear on the left of the page with a background color of red -->
       <div
@@ -86,18 +73,5 @@
       />
     </div>
   </div>
+  <PetList />
 </section>
-
-<style>
-  /* section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	} */
-</style>

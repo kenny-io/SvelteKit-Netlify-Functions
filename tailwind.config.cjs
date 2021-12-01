@@ -7,8 +7,10 @@ module.exports = {
       colors: {
         appaccent: "#FF897B",
         appaccentdark: "#FF5E5E",
-        ecllipse: "#FAF3E780"
-
+        ecllipse: "#FAF3E780",
+        ecllipsedark: "#FF702E80",
+        card: "#DF3629",
+        card2: "#EA6B24",
 
       },
       fontFamily: {
