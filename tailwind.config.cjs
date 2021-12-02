@@ -18,7 +18,8 @@ module.exports = {
         pumpkin: ['"Pumpkin Story"', "cursive"],
         adelia: ["Adelia", "cursive"],
         euclid: ['"Euclid Circular A Regular"',],
-        mono: ['"DM Mono"', "monospac"]
+        mono: ['"DM Mono"', "monospac"],
+        sfpro: ['"SF Pro"', "sans-serif"],
       }
     },
   },

@@ -11,6 +11,11 @@
   src: url(/adelia-font/ADELIA.otf) format("truetype");
   font-style: normal;
 }
+@font-face {
+  font-family: "SF Pro";
+  src: url(/sf/SF-Pro.ttf) format("truetype");
+  font-style: normal;
+}
 /* @font-face {
   font-family: "Euclid Circular A Regular";
   font-style: normal;
